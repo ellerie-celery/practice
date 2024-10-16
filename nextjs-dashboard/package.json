@@ -4,8 +4,8 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start"
-     "build": "npm run generate-html && vite build",
-     "generate-html": "mkdir -p dist && cp index.html dist/"
+    "build": "npm run generate-html && vite build",
+    "generate-html": "cp index.html dist/"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
